@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282828</color>
+    <color name="colorPrimaryDark">#900C3F</color>
+    <color name="colorAccent">#900C3F</color>
+    <color name="brownish">#DEC79B</color>
+    <color name="crimsonish">#a33a67</color>
+    <color name="violetish">#7d798e</color>
+    <color name="bleumarin">#212349</color>
+    <color name="yellowish">#fed8a1</color>
+    <color name="whiteish">#f2efe2</color>
+    <color name="my_yellow">#fdd000</color>
+    <color name="light_teal">#00897b</color>
+    <color name="dark_teal"></color>
+
+</resources>

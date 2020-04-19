@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MovieBoxProject</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="lastname_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="Username_hint">Username</string>
+    <string name="Password_hint">Password</string>
+    <string name="Confirm_Password_hint">Confirm Password</string>
+    <string name="title_hint">Title</string>
+    <string name="director_hint">Director</string>
+    <string name="year_hint">Year</string>
+
+    <string-array name="movie_genres">
+        <item>Thriller</item>
+        <item>Drama</item>
+        <item>Comedy</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Biography</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trending">Trending Movies</string>
+    <string name="sign_in_moviebox">Sign in to MovieBox</string>
+    <string name="sign_in_warn">For the moment, please enter any credentials to sign in.</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="terms_of_service">I have read and agree with the terms of service</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="sub_reg">Submit Registration</string>
+    <string name="reg_construction">The registration form functionality is currently under construction. It will be implemented in Phase II via databases.</string>
+    <string name="welcomeYo">Welcome, </string>
+    <string name="mov_c">View movie collection</string>
+    <string name="add_mov">Add a movie to your collection</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="trd_m_v">View Trending Movies</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="addmovieform">Add a movie</string>
+    <string name="mov_genre_select">Please select the movie\'s genre:</string>
+    <string name="rate_mov">Please rate the movie if you have seen it:</string>
+    <string name="save_to_collection">Save to Collection</string>
+    <string name="my_collection">My movie collection</string>
+    <string name="tap2edit">Tap on any movie to edit</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="change_password">change_password</string>
+    <string name="change_password3">Change password</string>
+    <string name="change_password_hint">enter new password</string>
+    <string name="confirm">Confirm password</string>
+    <string name="my_oldies_collection">Old Movies</string>
+    <string name="my_saved_collection">Movie Collection</string>
+    <string name="temp_collection">Temporary Collection</string>
+    <string name="oldies">View Oldies Collection</string>
+    <string name="save_to_text">Save to .txt</string>
+    <string name="prefs">Get Preferences</string>
+    <string name="app_prefs">Set App Version Prefs</string>
+</resources>

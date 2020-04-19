@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:fillViewport="false"
+    android:orientation="vertical"
+    tools:context=".UI.AddMovieActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_add_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/addmovieform"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp"
+
+            >
+
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:ellipsize="end"
+            android:hint="@string/title_hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/et_director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:hint="@string/director_hint"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/et_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:hint="@string/year_hint"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_sp_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="11dp"
+            android:text="@string/mov_genre_select"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary" />
+
+        <Spinner
+            android:id="@+id/sp_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="13dp"
+            android:entries="@array/movie_genres"
+            android:prompt="@array/movie_genres"
+            android:textColor="@color/colorPrimary" />
+
+
+        <TextView
+            android:id="@+id/tv_rating_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/rate_mov"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary" />
+
+        <RatingBar
+            android:id="@+id/rb_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:numStars="5"
+            android:saveEnabled="true"
+            android:stepSize="1" />
+
+
+        <Button
+            android:id="@+id/btn_save_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/yellow_gradient_xml"
+            android:text="@string/save_to_collection"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

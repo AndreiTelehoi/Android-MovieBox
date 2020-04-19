@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    tools:context=".UI.UserProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/tv_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="25dp"
+            android:text="@string/welcomeYo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/whiteish"
+            android:textSize="28sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_view_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/temp_collection"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_view_saved_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/mov_c"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_view_oldies_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/oldies"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_add_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/add_mov"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/sign_out"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_delete_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/delete_profile"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/change_password3"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+        <EditText
+            android:id="@+id/et_change_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:hint="@string/change_password_hint"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/whiteish"
+            android:textColorHint="@color/whiteish"
+            android:visibility="invisible"
+
+            />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/transparent_bg_bordered_button"
+            android:text="@string/confirm"
+            android:visibility="invisible"
+            android:textColor="@color/whiteish"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>
